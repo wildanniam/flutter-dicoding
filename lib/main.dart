@@ -1,4 +1,4 @@
-import 'package:belajar_dicoding/navigation.dart';
+import 'package:belajar_dicoding/media_query.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Wisata Bandung',
       theme: ThemeData(),
-      home: const FirstScreen(),
+      home: const ResponsivePage(),
     );
   }
 }
